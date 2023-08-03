@@ -1,0 +1,2568 @@
+    @font-face {
+        font-family: 'Mulish';
+        src: url('../fonts/Mulish-Regular.woff') format('woff');
+    }
+    
+    @font-face {
+        font-family: 'Manrope';
+        src: url('../fonts/Manrope.woff') format('woff');
+        font-weight: normal;
+        font-style: normal;
+    }
+    
+    @font-face {
+        font-family: 'Ubuntu';
+        src: url('../fonts/Ubuntu.woff') format('woff');
+        font-weight: normal;
+        font-style: normal;
+    }
+    
+    @font-face {
+        font-family: 'Product Sans';
+        src: url('../fonts/Product-Sans-Regular.woff') format('woff');
+        font-weight: normal;
+        font-style: normal;
+    }
+    
+    @font-face {
+        font-family: 'Inter';
+        src: url('../fonts/Inter-Regular.woff') format('woff');
+    }
+    
+    @font-face {
+        font-family: 'Roboto';
+        src: url('../fonts/Roboto-Regular.woff') format('woff');
+    }
+    
+    a:hover,
+    a {
+        text-decoration: none;
+        color: unset;
+    }
+    
+    .display-table {
+        display: table;
+    }
+    
+    .vertical-middle {
+        display: table-cell;
+        vertical-align: middle;
+    }
+    
+    .img-responsive {
+        width: 100%;
+        max-width: 100%;
+    }
+    
+    .w-fit-content {
+        width: fit-content;
+    }
+    
+    .text-color-1 {
+        color: #5c5eb5;
+    }
+    
+    .text-color-2 {
+        color: #9f9f9f;
+    }
+    
+    .text-color-3 {
+        color: #ffffff;
+    }
+    
+    .text-color-4 {
+        color: #444444;
+    }
+    
+    .text-color-5 {
+        color: #000000;
+    }
+    
+    .text-color-6 {
+        color: #2196f3;
+    }
+    
+    .text-color-7 {
+        color: #6854fc;
+    }
+    
+    .text-color-8 {
+        color: rgba(0, 0, 0, 0.5);
+    }
+    
+    .text-color-9 {
+        color: #181433;
+    }
+    
+    .text-color-10 {
+        color: #24265d;
+    }
+    
+    .text-color-11 {
+        color: #213d39;
+    }
+    
+    .text-color-12 {
+        color: #592ea9;
+    }
+    
+    .text-color-13 {
+        color: #6d6e75;
+    }
+    
+    .text-color-14 {
+        color: #232536;
+    }
+    
+    .text-color-15 {
+        color: #8c8c8c;
+    }
+    
+    .text-color-16 {
+        color: #053358;
+    }
+    
+    .text-color-17 {
+        color: #111111;
+    }
+    
+    .text-color-18 {
+        color: #828282;
+    }
+    
+    .text-color-19 {
+        color: #eb5757;
+    }
+    
+    .text-color-20 {
+        color: rgba(0, 0, 0, 0.400000006);
+    }
+    
+    .text-color-21 {
+        color: #2e2e2e;
+    }
+    
+    .text-color-22 {
+        color: #9c9c9c;
+    }
+    
+    .text-color-23 {
+        color: #5e5e5e;
+    }
+    
+    .text-color-24 {
+        color: #505050;
+    }
+    
+    .text-color-25 {
+        color: #25265E;
+    }
+    
+    .text-color-26 {
+        color: #2F2F2F;
+    }
+    
+    .text-color-27 {
+        color: #5F5F5F;
+    }
+    
+    .text-color-28 {
+        color: #515151;
+    }
+    
+    .text-color-29 {
+        color: #32046B;
+    }
+    
+    .text-color-30 {
+        color: #00000080;
+    }
+    
+    .text-color-31 {
+        color: #6D6E76;
+    }
+    
+    .text-color-32 {
+        color: #626262;
+    }
+    
+    .bg-color-1 {
+        background-color: #ffffff;
+    }
+    
+    .bg-color-2 {
+        background-color: #5c5eb5;
+    }
+    
+    .bg-color-3 {
+        background-color: rgba(212, 213, 254, 0.2300000042);
+    }
+    
+    .bg-color-4 {
+        background-color: #e9eaff;
+    }
+    
+    .bg-color-5 {
+        background-color: #f0eeff;
+    }
+    
+    .bg-color-6 {
+        background-color: #f6fff5;
+    }
+    
+    .bg-color-7 {
+        background-color: #e4e4e9;
+    }
+    
+    .bg-color-8 {
+        background-color: #f4f9ff;
+    }
+    
+    .bg-color-9 {
+        background-color: rgba(233, 234, 255, 0.1599999964);
+    }
+    
+    .bg-color-10 {
+        background-color: #d4d5fe;
+    }
+    
+    .bg-color-11 {
+        background-color: #c4c4c4;
+    }
+    
+    .bg-color-12 {
+        background-color: #111111;
+    }
+    
+    .bg-color-13 {
+        background-color: #ebebeb;
+    }
+    
+    .bg-color-14 {
+        background-color: #eadeff;
+    }
+    
+    .bg-color-15 {
+        background-color: #c3f4c2;
+    }
+    
+    .bg-color-16 {
+        background-color: #ffdbfb;
+    }
+    
+    .bg-color-17 {
+        background-color: #d9d9d9;
+    }
+    
+    .bg-color-18 {
+        background-color: #D4D5FF;
+    }
+    
+    .title-width {
+        max-width: 540px;
+        width: 100%;
+    }
+    
+    .bg-circle {
+        background-image: url('../images/bg-circle.png');
+        background-repeat: no-repeat;
+        background-position: top -20px left;
+    }
+    
+    .bg-circle2 {
+        background-image: url('../images/bg-circle-2.png');
+        background-repeat: no-repeat;
+        background-position: top right;
+    }
+    
+    .bg-pattren {
+        background-image: url('../images/pattrent-1.png');
+        background-repeat: no-repeat;
+        background-size: 100%;
+        background-position: top -318px left;
+    }
+    
+    .bg-pattren2 {
+        background-image: url('../images/pattren-2.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    
+    .bg-pattren3 {
+        background-image: url('../images/pattren-3.png');
+        background-repeat: no-repeat;
+        background-size: 100%;
+        background-position: top 90px center;
+    }
+    
+    .title-1 {
+        font-size: 100px;
+        font-weight: 800;
+        line-height: 122px;
+        font-family: Mulish, 'Source Sans Pro';
+    }
+    
+    .title-2 {
+        font-size: 30px;
+        font-weight: 400;
+        line-height: 38px;
+        font-family: Mulish, 'Source Sans Pro';
+    }
+    
+    .title-3 {
+        font-size: 27px;
+        font-weight: 400;
+        line-height: 34px;
+        letter-spacing: 0.048rem;
+        font-family: Mulish, 'Source Sans Pro';
+    }
+    
+    .title-4 {
+        font-size: 23px;
+        font-weight: 400;
+        line-height: 29px;
+        font-family: Mulish, 'Source Sans Pro';
+    }
+    
+    .title-5 {
+        font-size: 33px;
+        font-weight: 700;
+        line-height: 39px;
+        font-family: Mulish, 'Source Sans Pro';
+    }
+    
+    .title-6 {
+        font-size: 31px;
+        font-weight: 400;
+        line-height: 39px;
+        font-family: Mulish, 'Source Sans Pro';
+    }
+    
+    .title-7 {
+        font-size: 63px;
+        font-weight: 700;
+        line-height: 1.5;
+        font-family: Poppins, 'Source Sans Pro';
+    }
+    
+    .title-8 {
+        font-weight: 700;
+        line-height: 1.255;
+        font-family: Mulish, 'Source Sans Pro';
+    }
+    
+    .title-9 {
+        font-size: 35px;
+        font-weight: 400;
+        line-height: 44px;
+        font-family: Mulish, 'Source Sans Pro';
+    }
+    
+    .title-10 {
+        font-size: 31px;
+        font-weight: 600;
+        line-height: 1.6000000738;
+        letter-spacing: 0.062rem;
+        font-family: Inter, 'Source Sans Pro';
+    }
+    
+    .title-11 {
+        font-size: 48px;
+        font-weight: 700;
+        line-height: 1.3999999364;
+        font-family: Mulish, 'Source Sans Pro';
+    }
+    
+    .title-12 {
+        font-size: 26px;
+        font-weight: 400;
+        line-height: 1.600000088;
+        letter-spacing: 0.052rem;
+        font-family: Mulish, 'Source Sans Pro';
+    }
+    
+    .title-13 {
+        font-size: 26px;
+        font-weight: 400;
+        line-height: 33px;
+        font-family: Mulish, 'Source Sans Pro';
+    }
+    
+    .title-14 {
+        font-size: 26px;
+        font-weight: 700;
+        line-height: 30px;
+        font-family: Mulish, 'Source Sans Pro';
+        white-space: break-spaces;
+    }
+    
+    .title-15 {
+        font-size: 29px;
+        font-weight: 500;
+        line-height: 1.15;
+        letter-spacing: -0.058rem;
+        font-family: Ubuntu, 'Source Sans Pro';
+    }
+    
+    .title-16 {
+        font-size: 31px;
+        font-weight: 700;
+        line-height: 24px;
+        font-family: Ubuntu, 'Source Sans Pro';
+    }
+    
+    .title-17 {
+        font-family: 'Manrope';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 26px;
+        line-height: 36px;
+    }
+    
+    .title-18 {
+        font-weight: 500;
+        line-height: 0.9230769231;
+        font-family: Manrope, 'Source Sans Pro';
+    }
+    
+    .title-19 {
+        font-size: 26px;
+        font-weight: 500;
+        line-height: 26px;
+        font-family: Manrope, 'Source Sans Pro';
+    }
+    
+    .title-20 {
+        font-size: 26px;
+        font-weight: 500;
+        line-height: 26px;
+        font-family: Ubuntu, 'Source Sans Pro';
+    }
+    
+    .title-21 {
+        font-size: 26px;
+        font-weight: 500;
+        line-height: 26px;
+        font-family: Ubuntu, 'Source Sans Pro';
+    }
+    
+    .title-22 {
+        font-weight: 800;
+        line-height: 1.255;
+        font-family: Mulish, 'Source Sans Pro';
+    }
+    
+    .title-23 {
+        font-size: 69px;
+        font-weight: 700;
+        line-height: 0.7246376812;
+        font-family: Mulish, 'Source Sans Pro';
+    }
+    
+    .title-24 {
+        font-size: 28px;
+        font-weight: 700;
+        line-height: 1.255;
+        font-family: Mulish, 'Source Sans Pro';
+    }
+    
+    .title-25 {
+        font-size: 48px;
+        font-weight: 600;
+        line-height: 1.5;
+        font-family: Mulish, 'Source Sans Pro';
+    }
+    
+    .title-26 {
+        font-size: 20px;
+        font-weight: 300;
+        line-height: 23px;
+        font-family: Roboto, 'Source Sans Pro';
+    }
+    
+    .title-27 {
+        font-size: 17px;
+        font-weight: 400;
+        line-height: 1.255;
+        font-family: Mulish, 'Source Sans Pro';
+    }
+    
+    .title-28 {
+        font-size: 20px;
+        font-weight: 600;
+        line-height: 1.255;
+        font-family: Mulish, 'Source Sans Pro';
+    }
+    
+    .title-29 {
+        font-size: 28px;
+        font-weight: 600;
+        line-height: 1.255;
+        font-family: Mulish, 'Source Sans Pro';
+    }
+    
+    .title-30 {
+        font-size: 16px;
+        font-weight: 300;
+        line-height: 1.5;
+        font-family: Roboto, 'Source Sans Pro';
+    }
+    
+    .title-31 {
+        font-size: 28px;
+        font-weight: 700;
+        line-height: 40px;
+        letter-spacing: -0.1rem;
+        font-family: Mulish, 'Source Sans Pro';
+    }
+    
+    .title-32 {
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 28px;
+        font-family: Mulish, 'Source Sans Pro';
+    }
+    
+    .title-33 {
+        font-size: 76px;
+        font-weight: 700;
+        line-height: 95px;
+        letter-spacing: -0.2rem;
+        font-family: Mulish, 'Source Sans Pro';
+    }
+    
+    .title-34 {
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 1.255;
+        font-family: Mulish, 'Source Sans Pro';
+    }
+    
+    .title-35 {
+        font-size: 29px;
+        font-weight: 400;
+        line-height: 1.3879999621;
+        font-family: Mulish, 'Source Sans Pro';
+    }
+    
+    .title-36 {
+        font-size: 34px;
+        font-weight: 700;
+        line-height: 1.255;
+        font-family: Mulish, 'Source Sans Pro';
+    }
+    
+    .title-37 {
+        font-size: 36px;
+        font-weight: 700;
+        line-height: 1.255;
+        font-family: Mulish, 'Source Sans Pro';
+    }
+    
+    .title-38 {
+        font-size: 36px;
+        font-weight: 500;
+        line-height: 1.3020000458;
+        font-family: DM Sans, 'Source Sans Pro';
+    }
+    
+    .title-39 {
+        font-weight: 400;
+        line-height: 1.255;
+        font-family: Mulish, 'Source Sans Pro';
+    }
+    
+    .title-40 {
+        font-weight: 400;
+        line-height: 1.3879999621;
+        font-family: Mulish, 'Source Sans Pro';
+    }
+    
+    .title-41 {
+        font-size: 26px;
+        font-weight: 400;
+        line-height: 138.8%;
+        font-family: Mulish, 'Source Sans Pro';
+    }
+    
+    .title-42 {
+        font-size: 31px;
+        font-weight: 700;
+        line-height: 39px;
+        font-family: Mulish, 'Source Sans Pro';
+    }
+    
+    .title-43 {
+        font-size: 33px;
+        font-weight: 500;
+        line-height: 1.3020001036;
+        font-family: DM Sans, 'Source Sans Pro';
+    }
+    
+    .title-44 {
+        font-size: 35px;
+        font-weight: 700;
+        line-height: 44px;
+        font-family: Mulish, 'Source Sans Pro';
+    }
+    
+    .title-45 {
+        font-size: 28px;
+        font-weight: 400;
+        line-height: 35px;
+        font-family: Mulish, 'Source Sans Pro';
+    }
+    
+    .title-46 {
+        font-size: 35px;
+        font-weight: 500;
+        line-height: 1.3019999913;
+        font-family: DM Sans, 'Source Sans Pro';
+    }
+    
+    .title-47 {
+        font-size: 28px;
+        font-weight: 400;
+        line-height: 1.3020000458;
+        font-family: DM Sans, 'Source Sans Pro';
+    }
+    
+    .title-48 {
+        font-size: 27px;
+        font-weight: 400;
+        line-height: 1.3880000644;
+        font-family: Mulish, 'Source Sans Pro';
+    }
+    
+    .title-49 {
+        font-size: 32px;
+        font-weight: 700;
+        line-height: 1.255;
+        font-family: Mulish, 'Source Sans Pro';
+    }
+    
+    .title-50 {
+        font-size: 34px;
+        font-weight: 500;
+        line-height: 1.3020000458;
+        font-family: DM Sans, 'Source Sans Pro';
+    }
+    
+    .title-51 {
+        font-size: 26px;
+        font-weight: 400;
+        line-height: 1.3880000481;
+        font-family: Ubuntu, 'Source Sans Pro';
+    }
+    
+    .title-52 {
+        font-size: 24px;
+        font-weight: 700;
+        line-height: 150%;
+        font-family: Mulish, 'Source Sans Pro';
+    }
+    
+    .title-53 {
+        font-family: 'Mulish';
+        font-style: italic;
+        font-weight: 200;
+        font-size: 24px;
+        line-height: 150%;
+    }
+    
+    .title-54 {
+        font-size: 50px;
+        font-weight: 700;
+        line-height: 63px;
+        font-family: Mulish, 'Source Sans Pro';
+    }
+    
+    .title-55 {
+        font-size: 26px;
+        font-weight: 400;
+        line-height: 30px;
+        font-family: Ubuntu, 'Source Sans Pro';
+    }
+    
+    .title-56 {
+        font-size: 14px;
+        font-weight: 200;
+        line-height: 150%;
+        font-style: italic;
+        font-family: Mulish, 'Source Sans Pro';
+    }
+    
+    .title-57 {
+        font-size: 24px;
+        font-weight: 700;
+        line-height: 30px;
+        font-family: Mulish, 'Source Sans Pro';
+    }
+    
+    .title-58 {
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 150%;
+        font-family: Mulish, 'Source Sans Pro';
+    }
+    
+    .title-59 {
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 1.5;
+        font-family: Mulish, 'Source Sans Pro';
+    }
+    
+    .title-60 {
+        font-size: 60px;
+        font-weight: 400;
+        line-height: 1.171875;
+        font-family: Lust, 'Source Sans Pro';
+    }
+    
+    .title-61 {
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 1.7142857143;
+        letter-spacing: 0.014rem;
+        font-family: Montserrat, 'Source Sans Pro';
+    }
+    
+    .title-62 {
+        font-weight: 400;
+        line-height: 1.7142857143;
+        letter-spacing: 0.014rem;
+        font-family: Mulish, 'Source Sans Pro';
+    }
+    
+    .title-63 {
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 1.7142857143;
+        letter-spacing: 0.014rem;
+        font-family: Mulish, 'Source Sans Pro';
+    }
+    
+    .title-64 {
+        font-size: 19px;
+        font-weight: 400;
+        line-height: 1.2189999631;
+        letter-spacing: 0.038rem;
+        font-family: Montserrat, 'Source Sans Pro';
+    }
+    
+    .title-65 {
+        font-weight: 600;
+        line-height: 1.255;
+        letter-spacing: 0.038rem;
+        font-family: Mulish, 'Source Sans Pro';
+    }
+    
+    .title-66 {
+        font-weight: 400;
+        line-height: 1.255;
+        letter-spacing: 0.038rem;
+        font-family: Mulish, 'Source Sans Pro';
+    }
+    
+    .title-67 {
+        font-size: 19px;
+        font-weight: 600;
+        line-height: 24px;
+        letter-spacing: 0.038rem;
+        font-family: Mulish, 'Source Sans Pro';
+    }
+    
+    .title-68 {
+        font-size: 24px;
+        font-weight: 700;
+        line-height: 1.255;
+        font-family: Mulish, 'Source Sans Pro';
+    }
+    
+    .title-69 {
+        font-size: 36px;
+        font-weight: 800;
+        line-height: 1.6000000636;
+        letter-spacing: 0.072rem;
+        font-family: Mulish, 'Source Sans Pro';
+    }
+    
+    .title-70 {
+        font-size: 18px;
+        font-weight: 300;
+        line-height: 1.6000000636;
+        letter-spacing: 0.036rem;
+        font-family: Ubuntu, 'Source Sans Pro';
+    }
+    
+    .title-71 {
+        font-size: 61px;
+        font-weight: 700;
+        line-height: 1.255;
+        font-family: Mulish, 'Source Sans Pro';
+    }
+    
+    .title-72 {
+        font-size: 38px;
+        font-weight: 400;
+        line-height: 1.255;
+        font-family: Mulish, 'Source Sans Pro';
+    }
+    
+    .title-73 {
+        font-size: 41px;
+        font-weight: 400;
+        line-height: 51px;
+        font-family: Mulish, 'Source Sans Pro';
+    }
+    
+    .title-74 {
+        font-size: 84px;
+        font-weight: 700;
+        line-height: 105px;
+        font-family: Mulish, 'Source Sans Pro';
+    }
+    
+    .title-75 {
+        font-size: 22px;
+        font-weight: 700;
+        line-height: 1.255;
+        font-family: Mulish, 'Source Sans Pro';
+    }
+    
+    .title-76 {
+        font-size: 21px;
+        font-weight: 400;
+        line-height: 1.255;
+        font-family: Mulish, 'Source Sans Pro';
+    }
+    
+    .title-77 {
+        font-size: 22px;
+        font-weight: 400;
+        line-height: 1.255;
+        font-family: Mulish, 'Source Sans Pro';
+    }
+    
+    .title-78 {
+        font-size: 26px;
+        font-weight: 400;
+        line-height: 33px;
+        font-family: Mulish, 'Source Sans Pro';
+    }
+    
+    .title-79 {
+        font-size: 58px;
+        font-weight: 700;
+        line-height: 73px;
+        font-family: Mulish, 'Source Sans Pro';
+    }
+    
+    .title-80 {
+        font-size: 29px;
+        font-weight: 400;
+        line-height: 1.255;
+        font-family: Mulish, 'Source Sans Pro';
+    }
+    
+    .title-81 {
+        font-size: 25px;
+        font-weight: 400;
+        line-height: 31px;
+        font-family: Mulish, 'Source Sans Pro';
+    }
+    
+    .title-82 {
+        font-size: 70px;
+        font-weight: 700;
+        line-height: 88px;
+        font-family: Mulish, 'Source Sans Pro';
+    }
+    
+    .title-83 {
+        font-size: 24px;
+        font-weight: 400;
+        line-height: 30px;
+        font-family: Mulish, 'Source Sans Pro';
+    }
+    
+    .title-84 {
+        font-size: 56px;
+        font-weight: 700;
+        line-height: 1.255;
+        font-family: Mulish, 'Source Sans Pro';
+    }
+    
+    .title-85 {
+        font-size: 26px;
+        font-weight: 400;
+        line-height: 1.600000088;
+        font-family: Mulish, 'Source Sans Pro';
+    }
+    
+    .title-86 {
+        font-size: 108px;
+        font-weight: 800;
+        line-height: 1.2549999378;
+        font-family: Mulish, 'Source Sans Pro';
+    }
+    
+    .title-87 {
+        font-size: 43px;
+        font-weight: 600;
+        line-height: 54px;
+        font-family: Mulish, 'Source Sans Pro';
+    }
+    
+    .title-88 {
+        font-size: 43px;
+        font-weight: 700;
+        line-height: 54px;
+        font-family: Mulish, 'Source Sans Pro';
+    }
+    
+    .title-89 {
+        font-family: 'Product Sans';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 52px;
+        line-height: 137.2%;
+    }
+    
+    .title-90 {
+        font-family: 'Mulish';
+        font-style: normal;
+        font-weight: 800;
+        font-size: 60px;
+        line-height: 75px;
+    }
+    
+    .title-91 {
+        font-family: 'Mulish';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 63px;
+        line-height: 79px;
+    }
+    
+    .single-blog {
+        background: #FFFFFF;
+        border: 1px solid rgba(17, 17, 17, 0.1);
+        border-radius: 6px;
+        margin-bottom: 45px;
+    }
+    
+    .single-blog-content {
+        padding: 24px;
+    }
+    
+    .myinput {
+        border: 1px solid #E0E0E0;
+        padding: 12px 20px;
+        font-family: 'Mulish';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 24px;
+        width: 100%;
+    }
+    
+    .mytext-area {
+        width: 100%;
+        border-radius: 12px;
+        padding: 12px 20px;
+        border: 1px solid #E0E0E0;
+    }
+    
+    .mypagination {
+        padding: 0;
+        margin: 0;
+        list-style: none;
+        width: fit-content;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 54px;
+    }
+    
+    .mypagination li {
+        display: inline-block;
+        background: #FFFFFF;
+        border: 1px solid rgba(17, 17, 17, 0.1);
+        border-radius: 2px;
+        padding: 18px 27px;
+        margin: 0 13px;
+    }
+    
+    .mypagination .active {
+        background: #5C5EB5;
+        color: #FFFFFF;
+    }
+    
+    .image-shadow {
+        box-shadow: 3px 23px 50px rgba(0, 0, 0, 0.27), 6px 8px 20px rgba(30, 14, 98, 0.35);
+        border-radius: 10px;
+    }
+    
+    .header-logo {
+        width: 216px;
+    }
+    
+    .navbar {
+        padding: 12px 41px;
+    }
+    
+    .collapse:not(.show) {
+        display: block;
+    }
+    
+    .collapse:not(.in) {
+        display: none;
+    }
+    
+    .navbar-fixed-top {
+        background: white;
+        top: 5px;
+        position: fixed;
+        right: 5px;
+        left: 5px;
+        z-index: 1030;
+        box-shadow: 0px 4px 33px rgba(0, 0, 0, 0.19);
+        border-radius: 5px;
+    }
+    
+    .nav-item {
+        position: relative;
+        margin-right: 1%;
+        margin-left: 1%;
+        white-space: nowrap;
+    }
+    
+    .nav-link {
+        color: #444444 !important;
+        padding: 9px 41px !important;
+    }
+    
+    .nav-item .active,
+    .nav-item .nav-link:hover {
+        background: #5C5EB5;
+        border-radius: 5px;
+        color: #fff !important;
+    }
+    
+    .dropDownMenuMainDiv {
+        display: none;
+        position: absolute;
+        width: 800px;
+        z-index: 1;
+        padding-top: 40px;
+        left: 50%;
+        transform: translate(-50%, 0);
+    }
+    
+    .dropDownMenu {
+        background: #FFFFFF;
+        box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.25);
+        border-radius: 5px;
+        padding: 12px;
+        border-top: 1px solid #27AAE1;
+        padding-bottom: 0;
+    }
+    
+    .nav-item:hover .dropDownMenuMainDiv {
+        display: block;
+    }
+    
+    .items-center {
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    .menu-width {
+        width: -webkit-fill-available;
+        justify-content: center;
+    }
+    
+    .btn:not(:disabled):not(.disabled) {
+        cursor: pointer;
+    }
+    
+    .mybtn {
+        background: #FF8360;
+        color: #fff;
+        border: none;
+        white-space: nowrap;
+    }
+    
+    .mybtn-default {
+        border: 1px solid #111111;
+        border-radius: 4px;
+        padding: 8px 16px;
+        font-family: 'Mulish';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 26px;
+        line-height: 150%;
+        color: #111111;
+        width: fit-content;
+    }
+    
+    .mybtn-default2 {
+        border: 1px solid #5C5EB5;
+        border-radius: 5px;
+        padding: 9px 41px;
+        font-family: 'Mulish';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 23px;
+        line-height: 29px;
+        color: #5C5EB5;
+        width: fit-content;
+    }
+    
+    .br-54 {
+        border-radius: 54px;
+    }
+    
+    .br-53 {
+        border-radius: 53px;
+    }
+    
+    .br-20 {
+        border-radius: 20px;
+    }
+    
+    .br-18 {
+        border-radius: 18px;
+    }
+    
+    .br-12 {
+        border-radius: 12px;
+    }
+    
+    .br-8 {
+        border-radius: 8px !important;
+    }
+    
+    .br-6 {
+        border-radius: 6px !important;
+    }
+    
+    .br-4 {
+        border-radius: 4px !important;
+    }
+    
+    .cp-1 {
+        padding: 10px 35px;
+    }
+    
+    .cp-2 {
+        padding: 0px 56px 0 41px;
+    }
+    
+    .cp-3 {
+        padding: 0 10%;
+    }
+    
+    .cp-4 {
+        padding: 54px 35px 50px 54px;
+    }
+    
+    .cp-5 {
+        padding: 0px 114px 0px 42px;
+    }
+    
+    .cp-6 {
+        padding: 0px 76PX;
+    }
+    
+    .cp-7 {
+        padding: 22px 65px;
+    }
+    
+    .cp-8 {
+        padding: 13px 28px;
+    }
+    
+    .cp-9 {
+        padding: 0px 40px;
+    }
+    
+    .cp-10 {
+        padding: 84px 75px;
+        padding-bottom: 0px;
+    }
+    
+    .cp-11 {
+        padding: 15px 73px;
+    }
+    
+    .cp-12 {
+        padding: 13% 10%;
+    }
+    
+    .cp-13 {
+        padding: 0 100px;
+    }
+    
+    .cp-14 {
+        padding: 59px 56px;
+    }
+    
+    .cp-15 {
+        padding-left: 79px;
+    }
+    
+    .cp-16 {
+        padding: 0px 160px;
+    }
+    
+    .cp-17 {
+        padding-right: 79px;
+    }
+    
+    .cp-18 {
+        padding: 0 103px;
+    }
+    
+    .cp-19 {
+        padding: 0 60px;
+    }
+    
+    .cp-20 {
+        padding: 17px 0;
+    }
+    
+    .cp-21 {
+        padding: 0 39px;
+    }
+    
+    .cp-22 {
+        padding: 56px 51px;
+    }
+    
+    .cp-23 {
+        padding: 0px 100px;
+    }
+    
+    .cp-24 {
+        padding: 0px 100px;
+    }
+    
+    .cp-25 {
+        padding: 6px 13px;
+    }
+    
+    .cp-26 {
+        padding: 0px 112px;
+    }
+    
+    .cp-27 {
+        padding: 4px 8px;
+    }
+    
+    .cp-28 {
+        padding: 0px 56px 0 41px;
+    }
+    
+    .blog-patttren {
+        background-image: url('../images/blog-patttren.png');
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+    }
+    
+    .teams-div {
+        background-image: url('../images/team-back.png');
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        background-position: top 100px center;
+        margin-bottom: 20px;
+    }
+    
+    .teams-div img {
+        width: 100%;
+    }
+    
+    .project-skills img {
+        margin-right: 44px;
+    }
+    
+    .service-icons {
+        width: 117px;
+        height: 117px;
+    }
+    
+    .menuItem {
+        border: 1px solid transparent;
+        padding: 19px 26px;
+    }
+    
+    .menuItem:hover {
+        background: #FFFFFF;
+        border: 1px solid #5C5EB5;
+        box-shadow: 0px 0px 35px rgba(177, 179, 250, 0.31);
+        border-radius: 5px;
+    }
+    
+    .div-1 {
+        box-shadow: 0px 0px 28px rgba(177, 179, 250, 0.44);
+        border-radius: 20px;
+        padding: 52px 82px;
+    }
+    
+    .div-2 {
+        max-width: 250px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    .div-3 {
+        background: #5C5EB5;
+        border-radius: 7px;
+        padding: 52px;
+        z-index: 10;
+        position: relative;
+    }
+    
+    .div-4 {
+        background: #5C5EB5;
+        border-radius: 20px 20px 0px 20px;
+        padding: 33px 48px;
+        width: fit-content;
+        position: absolute;
+        bottom: 0;
+        right: 0px;
+    }
+    
+    .div-5 {
+        background: #EAEAFF;
+        border-radius: 25px;
+    }
+    
+    .div-6 {
+        border: 1px solid #5C5EB5;
+        border-radius: 32px;
+        padding: 21px 15% 39px 15%;
+    }
+    
+    .div-7 {
+        background: #D4D5FF;
+        border: 1px solid rgba(17, 17, 17, 0.08);
+        box-shadow: 0px 4px 10px rgba(17, 17, 17, 0.02);
+        border-radius: 6px;
+        padding: 29px 0;
+        margin-bottom: 150px;
+    }
+    
+    .blog-tabs {
+        padding: 0;
+        margin: 0;
+        margin-left: auto;
+        margin-right: auto;
+        width: fit-content;
+    }
+    
+    .blog-tabs li {
+        display: inline-block;
+        padding: 9px 15px;
+        margin: 0 5px;
+        font-family: 'Mulish';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 23px;
+        line-height: 29px;
+        text-align: center;
+        color: #444444;
+        cursor: pointer;
+    }
+    
+    .blog-tabs .active {
+        background: #5C5EB5;
+        border-radius: 5px;
+        color: #fff;
+    }
+    
+    .brand-div img {
+        width: 208px;
+    }
+    
+    .service-icon2 {
+        width: 29px;
+        height: 29px;
+        border-radius: 100px;
+    }
+    
+    .view-more {
+        padding: 16px 37px;
+        border-radius: 18px;
+        width: fit-content;
+    }
+    
+    .service-div {
+        padding: 85px 78px 85px 59px;
+    }
+    
+    .service-div-image:hover {
+        background-image: url('../images/card-back.svg');
+        background-size: 100% 100%;
+    }
+    
+    .service-div-image .learn-more {
+        border-bottom: 2px solid transparent;
+    }
+    
+    .service-div-image:hover .learn-more {
+        border-bottom: 2px solid #5C5EB5;
+    }
+    
+    .service-div-image:hover .learn-more .learn-more-title {
+        color: #5C5EB5;
+    }
+    
+    .service-div-image:hover .learn-more .arrow-right-purple {
+        display: block !important;
+    }
+    
+    .service-div-image:hover .learn-more .arrow-right-black {
+        display: none;
+    }
+    
+    .squar-image {
+        background-image: url('../images/squar-img.png');
+        background-repeat: no-repeat;
+        padding-left: 20px;
+        background-position: top left 20px;
+        background-size: 21%;
+    }
+    
+    .squar-image2 {
+        background-image: url('../images/squar-img.png');
+        background-repeat: no-repeat;
+        padding-left: 20px;
+        background-position: top left 20px;
+        background-size: 25%;
+    }
+    
+    .stars-image {
+        background-image: url('../images/stars.png');
+        background-repeat: no-repeat;
+        background-position: top right;
+    }
+    
+    .bubbels-image {
+        background-image: url('../images/bubbels.png');
+        background-repeat: no-repeat;
+        background-position: bottom left;
+    }
+    
+    .no-break {
+        white-space: nowrap;
+    }
+    
+    .footer-logo {
+        width: 228px;
+        max-width: 100%;
+    }
+    
+    .footer-title-width {
+        max-width: 200px;
+    }
+    
+    .footer-nav li {
+        margin-bottom: 15px;
+    }
+    
+    .footer-nav {
+        margin-bottom: 25px;
+    }
+    
+    .social-icons img {
+        margin-right: 23px;
+    }
+    
+    .social-icons img:last-child {
+        margin-right: 0px;
+    }
+    
+    .list-style-none {
+        list-style: none;
+    }
+    
+    .h-52 {
+        height: 52px;
+    }
+    
+    .no-border {
+        border: none;
+    }
+    
+    .my-hr-1 {
+        border-bottom: 3px solid #E5E5EA;
+    }
+    
+    .counts-div {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    .visible-md-my {
+        display: none;
+    }
+    
+    .news-letter-input {
+        min-width: 200px !important;
+        max-width: 100% !important;
+    }
+    
+    .all-items-center {
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    .works-div {
+        width: 15%;
+        Height: 465px;
+        position: relative;
+    }
+    
+    .works-div-text {
+        position: absolute;
+        bottom: 15%;
+        left: 50%;
+        transform: translateX(-50%);
+        white-space: nowrap;
+        font-size: 36px;
+    }
+    
+    .works-1 {
+        background-image: url('../images/works-1.png');
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+    }
+    
+    .works-2 {
+        background-image: url('../images/works-2.png');
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+    }
+    
+    .works-3 {
+        background-image: url('../images/works-3.png');
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+    }
+    
+    .works-4 {
+        background-image: url('../images/works-4.png');
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+    }
+    
+    .works-5 {
+        background-image: url('../images/works-5.png');
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+    }
+    
+    .works-6 {
+        background-image: url('../images/works-6.png');
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+    }
+    
+    .works-main-div {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    
+    .works-main-div .top-margin {
+        margin-top: 150px;
+    }
+    
+    .arrow-purple-right {
+        width: 42px;
+    }
+    
+    .contact-imgs {
+        width: 42px;
+    }
+    
+    .bottom-right-div {
+        position: fixed;
+        left: 10px;
+        bottom: 10px;
+        z-index: 10;
+    }
+    
+    .bottom-right-button {
+        padding: 10px;
+        background: #fff;
+        border-radius: 100%;
+        box-shadow: 0px 0px 20px rgba(177, 179, 250, 0.44);
+        cursor: pointer;
+    }
+    .iti.iti--allow-dropdown.iti--separate-dial-code{
+        width:100%;
+    }
+    
+    @media (max-width: 1600px) {
+        .works-div {
+            width: 200px;
+            Height: 365px;
+        }
+        .cp-14 {
+            padding: 59px 0;
+        }
+        .cp-24 {
+            padding: 50px;
+        }
+        .div-6 {
+            padding: 21px 10% 39px 10%;
+        }
+        .nav-link {
+            padding: 9px 30px !important;
+        }
+    }
+    
+    @media (max-width: 1500px) {
+        .works-div-text {
+            font-size: 28px;
+            line-height: 36px;
+        }
+        .title-1 {
+            font-size: 85px;
+            line-height: 110px;
+        }
+        .title-2 {
+            font-size: 25px;
+            line-height: 35px;
+        }
+        .title-3 {
+            font-size: 22px;
+            line-height: 32px;
+        }
+        .title-72 {
+            font-size: 30px;
+            line-height: 38px;
+        }
+        .title-73 {
+            font-size: 35px;
+            line-height: 40px;
+        }
+        .title-74 {
+            font-size: 55px;
+            line-height: 65px;
+        }
+        .title-75 {
+            font-size: 20px;
+            line-height: 25px;
+        }
+        .title-76 {
+            font-size: 18px;
+            line-height: 21px;
+        }
+        .title-77 {
+            font-size: 18px;
+        }
+        .title-78 {
+            font-size: 22px;
+            line-height: 32px;
+        }
+        .title-79 {
+            font-size: 45px;
+            line-height: 52px;
+        }
+        .title-13 {
+            font-size: 20px;
+        }
+        .title-80 {
+            font-size: 22px;
+        }
+        .contact-imgs {
+            width: 35px;
+        }
+        .title-16 {
+            font-size: 26px;
+        }
+        .title-17 {
+            font-size: 22px;
+        }
+        .title-15 {
+            font-size: 25px;
+        }
+        .title-20 {
+            font-size: 22px;
+        }
+        .title-91 {
+            font-size: 45px;
+            line-height: 60px;
+        }
+        .title-9 {
+            font-size: 22px;
+            line-height: 31px;
+        }
+        .title-10 {
+            font-size: 24px;
+        }
+        .title-9 {
+            font-size: 20px;
+        }
+        .title-11 {
+            font-size: 35px;
+        }
+        .title-12 {
+            font-size: 20px;
+            line-height: 1;
+        }
+        .title-14 {
+            font-size: 22px;
+            line-height: 28px;
+        }
+        .title-89 {
+            font-size: 35px;
+        }
+        .title-88 {
+            font-size: 30px;
+            line-height: 45px;
+        }
+        .title-83 {
+            font-size: 18px;
+            line-height: 26px;
+        }
+        .title-81 {
+            font-size: 20px;
+            line-height: 31px;
+        }
+        .title-82 {
+            font-size: 45px;
+            line-height: 64px;
+        }
+        .title-83 {
+            font-size: 20px;
+            line-height: 20px;
+        }
+        .title-84 {
+            font-size: 35px;
+            line-height: 1.255;
+        }
+        .title-85 {
+            font-size: 20px;
+            line-height: 1;
+        }
+        .title-90 {
+            font-size: 45px;
+            line-height: 50px;
+        }
+        .title-69 {
+            font-size: 26px;
+            line-height: 1;
+        }
+        .title-57 {
+            font-size: 20px;
+            line-height: 23px;
+        }
+        .cp-20 {
+            padding: 18px 0;
+        }
+        .blog-tabs li {
+            font-size: 20px;
+            line-height: 27px;
+        }
+        .title-52 {
+            font-size: 20px;
+        }
+        .title-53 {
+            font-size: 20px;
+        }
+        .title-54 {
+            font-size: 35px;
+            line-height: 42px;
+        }
+        .title-55 {
+            font-size: 20px;
+            line-height: 26px;
+        }
+        .title-53 {
+            font-size: 16px;
+        }
+        .mybtn-default2 {
+            padding: 7px 29px;
+            font-size: 16px;
+            line-height: 29px;
+        }
+        .mypagination li {
+            padding: 13px 20px;
+            margin: 0px 10px;
+        }
+        .title-33 {
+            font-size: 45px;
+            line-height: 54px;
+            letter-spacing: unset;
+        }
+        .title-4 {
+            font-size: 20px;
+            line-height: 27px;
+        }
+        .title-31 {
+            font-size: 22px;
+            line-height: 30px;
+        }
+        .title-32 {
+            font-size: 14px;
+            line-height: 27px;
+        }
+        .title-34 {
+            font-size: 16px;
+        }
+        .title-42 {
+            font-size: 26px;
+            line-height: 39px;
+        }
+        .title-45 {
+            font-size: 20px;
+            line-height: 31px;
+        }
+        .cp-8 {
+            padding: 10px 25px;
+        }
+        .title-19 {
+            font-size: 22px;
+            line-height: 26px;
+        }
+        .title-71 {
+            font-size: 45px;
+        }
+        .arrow-purple-right {
+            width: 35px;
+        }
+    }
+    
+    @media (max-width: 1400px) {
+        .service-div {
+            padding: 20px;
+        }
+        .cp-3 {
+            padding: 0px 5%;
+        }
+        .works-div-text {
+            font-size: 26px;
+            line-height: 37px;
+        }
+        .cp-17 {
+            padding-right: 0;
+        }
+        .brand-div img {
+            width: 150px;
+        }
+        .header-logo {
+            width: 150px;
+        }
+        .navbar {
+            padding: 7px 30px;
+        }
+        .title-1 {
+            font-size: 65px;
+            line-height: 84px;
+        }
+        .title-3 {
+            font-size: 20px;
+            line-height: 29px;
+        }
+        .title-14 {
+            font-size: 16px;
+            line-height: 28px;
+        }
+        .title-1 {
+            font-size: 50px;
+            line-height: 60px;
+        }
+        .title-2 {
+            font-size: 24px;
+            line-height: 31px;
+        }
+        .title-52 {
+            font-size: 16px;
+        }
+        .title-53 {
+            font-size: 14px;
+        }
+        .title-54 {
+            font-size: 28px;
+            line-height: 32px;
+        }
+        .title-55 {
+            font-size: 18px;
+            line-height: 24px;
+        }
+        .title-13 {
+            font-size: 18px;
+            line-height: 24px;
+        }
+        .title-57 {
+            font-size: 18px;
+            line-height: 22px;
+        }
+        .title-58 {
+            font-size: 15px;
+        }
+        .title-4 {
+            font-size: 16px;
+            line-height: 23px;
+        }
+        .title-89 {
+            font-size: 30px;
+        }
+        .title-13 {
+            font-size: 16px;
+            line-height: 22px;
+        }
+        .title-3 {
+            font-size: 18px;
+            line-height: 22px;
+        }
+        .title-16 {
+            font-size: 22px;
+        }
+        .title-17 {
+            font-size: 18px;
+            line-height: 22px;
+        }
+        .title-15 {
+            font-size: 20px;
+        }
+        .title-20 {
+            font-size: 18px;
+            letter-spacing: unset;
+        }
+        .title-19 {
+            font-size: 20px;
+            line-height: 20px;
+        }
+        .title-71 {
+            font-size: 35px;
+            line-height: 1;
+        }
+        .title-72 {
+            font-size: 24px;
+            line-height: 35px;
+        }
+        .title-73 {
+            font-size: 30px;
+            line-height: 35px;
+        }
+        .title-75 {
+            font-size: 18px;
+            line-height: 22px;
+        }
+        .title-76 {
+            font-size: 15px;
+            line-height: 21px;
+        }
+        .title-74 {
+            font-size: 50px;
+            line-height: 55px;
+        }
+        .title-78 {
+            font-size: 20px;
+            line-height: 30px;
+        }
+        .title-79 {
+            font-size: 32px;
+            line-height: 42px;
+        }
+        .title-13 {
+            font-size: 15px;
+            line-height: 22px;
+        }
+        .title-80 {
+            font-size: 20px;
+        }
+    }
+    
+    @media (max-width: 1320px) {
+        .counts-div .count-text-div {
+            width: min-content;
+        }
+        .cp-24 {
+            padding-right: 0;
+        }
+    }
+    
+    @media (max-width: 1300px) {
+        .nav-item {
+            margin-right: 0.5%;
+            margin-left: 0.5%;
+        }
+        .nav-link {
+            padding: 9px 20px !important;
+        }
+        .cp-16 {
+            padding: 0px 64px;
+        }
+    }
+    
+    @media (max-width: 1210px) {
+        .works-main-div .top-margin {
+            margin-top: 0px;
+        }
+        .title-width {
+            max-width: 540px;
+            width: 100%;
+        }
+        .works-div {
+            width: 349px;
+            Height: 490px;
+        }
+        .works-div-text {
+            font-size: 24px;
+            line-height: 37px;
+        }
+        .cp-12 {
+            padding: 5%;
+        }
+        .cp-13 {
+            padding: 0;
+        }
+        .div-6 {
+            padding: 15px 5% 25px 5%;
+        }
+    }
+    
+    @media (max-width: 1100px) {
+        .nav-link {
+            padding: 9px 15px !important;
+        }
+        .div-1 {
+            padding: 30px;
+        }
+        .header-logo {
+            width: 130px;
+        }
+        .blog-tabs li {
+            font-size: 18px;
+            line-height: 25px;
+        }
+        .cp-26 {
+            padding: 0px 15px;
+        }
+        .mb-90 {
+            margin-bottom: 79px;
+        }
+        .cp-8 {
+            padding: 8px 20px;
+        }
+        .contact-imgs {
+            width: 30px;
+        }
+        .mb-88 {
+            margin-bottom: 35px !important;
+        }
+        .arrow-purple-right {
+            width: 30px;
+        }
+        .title-1 {
+            font-size: 55px;
+            line-height: 84px;
+        }
+        .title-3 {
+            font-size: 18px;
+            line-height: 29px;
+        }
+        .title-14 {
+            font-size: 15px;
+            line-height: 28px;
+        }
+        .title-1 {
+            font-size: 45px;
+            line-height: 60px;
+        }
+        .title-2 {
+            font-size: 22px;
+            line-height: 31px;
+        }
+        .title-52 {
+            font-size: 16px;
+        }
+        .title-53 {
+            font-size: 14px;
+        }
+        .title-54 {
+            font-size: 26px;
+            line-height: 32px;
+        }
+        .title-55 {
+            font-size: 17px;
+            line-height: 24px;
+        }
+        .title-13 {
+            font-size: 17px;
+            line-height: 24px;
+        }
+        .title-57 {
+            font-size: 17px;
+            line-height: 22px;
+        }
+        .title-58 {
+            font-size: 14px;
+        }
+        .title-4 {
+            font-size: 15px;
+            line-height: 23px;
+        }
+        .title-89 {
+            font-size: 28px;
+        }
+        .title-13 {
+            font-size: 15px;
+            line-height: 22px;
+        }
+        .title-3 {
+            font-size: 17px;
+            line-height: 22px;
+        }
+        .title-16 {
+            font-size: 20px;
+        }
+        .title-17 {
+            font-size: 17px;
+            line-height: 22px;
+        }
+        .title-15 {
+            font-size: 18px;
+        }
+        .title-20 {
+            font-size: 17px;
+            letter-spacing: unset;
+        }
+        .title-19 {
+            font-size: 18px;
+            line-height: 20px;
+        }
+        .title-71 {
+            font-size: 31px;
+            line-height: 1;
+        }
+        .title-72 {
+            font-size: 22px;
+            line-height: 35px;
+        }
+        .title-73 {
+            font-size: 28px;
+            line-height: 35px;
+        }
+        .title-75 {
+            font-size: 17px;
+            line-height: 22px;
+        }
+        .title-76 {
+            font-size: 15px;
+            line-height: 21px;
+        }
+        .title-74 {
+            font-size: 45px;
+            line-height: 55px;
+        }
+        .title-78 {
+            font-size: 18px;
+            line-height: 30px;
+        }
+        .title-79 {
+            font-size: 30px;
+            line-height: 42px;
+        }
+        .title-13 {
+            font-size: 14px;
+            line-height: 22px;
+        }
+        .title-80 {
+            font-size: 18px;
+        }
+    }
+    
+    @media (max-width: 1050px) {}
+    
+    @media (max-width: 992px) {
+        .mb-35 {
+            margin-bottom: 15px !important;
+        }
+        .dropDownMenuMainDiv {
+            width: 100%;
+            display: none !important;
+        }
+        .blog-patttren {
+            background-image: none;
+        }
+        .service-icons {
+            display: none;
+        }
+        .menu-width {
+            width: 100%;
+            padding: 10px 0;
+        }
+        .menuItem {
+            padding: 0;
+            text-align: left;
+        }
+        .cp-26 {
+            padding: 0px 15px;
+        }
+        .pt-150 {
+            padding-top: 0 !important;
+        }
+        .cp-22 {
+            padding: 30px 18px;
+        }
+        .mb-56 {
+            margin-bottom: 30px !important;
+        }
+        .myinput {
+            padding: 10px 20px;
+        }
+        .staff-image {
+            margin-bottom: 20px;
+        }
+        .ml-minus-100 {
+            margin-left: 0px !important;
+        }
+        .mr-minus-100 {
+            margin-right: 0px !important;
+        }
+        .counts-colors {
+            display: none;
+        }
+        .counts-div {
+            display: flow-root;
+        }
+        .counts-div>.count-text-div {
+            float: left;
+            width: 50%;
+            margin-bottom: 10px;
+        }
+        .counts-div>.count-text-div:last-child {
+            float: right;
+        }
+        .works-div {
+            width: 330px;
+            Height: 460px;
+        }
+        .mb-md-20 {
+            margin-bottom: 20px;
+        }
+        .mb-150 {
+            margin-bottom: 50px !important;
+        }
+        .mb-33 {
+            margin-bottom: 15px !important;
+        }
+        .mb-82 {
+            margin-bottom: 50px !important;
+        }
+    }
+    
+    @media (max-width: 768px) {
+        .text-center-sm {
+            text-align: center;
+        }
+        .footer-title-width {
+            max-width: 100%;
+        }
+        .mypagination li {
+            padding: 10px 19px;
+            margin: 10px 8px;
+        }
+        .cp-24 {
+            padding-left: 0;
+        }
+        .cp-24 {
+            padding: 0;
+        }
+        .title-25 {
+            font-size: 35px;
+            line-height: 45px;
+        }
+        .mb-85 {
+            margin-bottom: 40px !important;
+        }
+        .title-11 {
+            font-size: 30px;
+            line-height: 40px;
+        }
+        .title-12 {
+            font-size: 18px;
+            line-height: 30px;
+        }
+        .cp-23 {
+            padding: 0px 15px;
+        }
+        .title-23 {
+            font-size: 30px;
+            line-height: 40px;
+        }
+        .title-24 {
+            font-size: 20px;
+            line-height: 30px;
+        }
+        .div-4 {
+            padding: 15px;
+        }
+        .title-5 {
+            font-size: 24px;
+            line-height: 33px;
+        }
+        .title-6 {
+            font-size: 22px;
+            line-height: 30px;
+        }
+        .title-91 {
+            font-size: 30px;
+            line-height: 40px;
+        }
+        .mb-90 {
+            margin-bottom: 35px !important;
+        }
+        .title-9 {
+            font-size: 22px;
+            line-height: 32px;
+        }
+        .cp-28 {
+            padding: 0 15px;
+        }
+        .pt-100 {
+            padding-top: 50px;
+        }
+        .cp-19 {
+            padding: 0 15px;
+        }
+        .title-90 {
+            font-size: 35px;
+            line-height: 45px;
+        }
+        .title-67 {
+            font-size: 16px;
+            line-height: 22px;
+        }
+        .cp-18 {
+            padding: 15px;
+        }
+        .div-3 {
+            padding: 20px;
+        }
+        .title-84 {
+            font-size: 35px;
+            line-height: 45px;
+        }
+        .title-85 {
+            font-size: 18px;
+            line-height: 26px;
+        }
+        .mb-185 {
+            margin-bottom: 60px !important;
+        }
+        .cp-2 {
+            padding: 0 15px;
+        }
+        .header-logo {
+            width: 100px;
+        }
+        .cp-16 {
+            padding: 0px 15px;
+        }
+        .cp-15 {
+            padding-left: 0;
+        }
+        .project-skills img {
+            margin-right: 30px;
+            width: 65px;
+        }
+        .project-skills {}
+        .mb-88 {
+            margin-bottom: 40px !important;
+        }
+        .cp-6 {
+            padding: 0px 15PX;
+        }
+        .cp-7 {
+            padding: 20px;
+        }
+        .hidden-md-my {
+            display: none;
+        }
+        .visible-md-my {
+            display: block;
+        }
+        .counts-colors {
+            display: none;
+        }
+        .counts-div {
+            display: block;
+        }
+        .counts-div>.count-text-div {
+            float: none;
+            margin-bottom: 10px;
+            width: 100%;
+        }
+        .counts-div>.count-text-div:last-child {
+            float: none;
+        }
+        .title-74 {
+            font-size: 45px;
+            line-height: 55px;
+        }
+        .title-73 {
+            font-size: 24px;
+            line-height: 32px;
+        }
+    }
+    
+    @media (max-width: 500px) {
+        .cp-21 {
+            padding: 0 15px;
+        }
+        .type-icons {
+            width: 50px;
+        }
+        .pt-90 {
+            padding-top: 25px;
+        }
+        .title-81 {
+            font-size: 18px;
+            line-height: 27px;
+        }
+        .title-82 {
+            font-size: 30px;
+            line-height: 40px;
+        }
+        .title-77 {
+            font-size: 16px;
+            line-height: 22px;
+        }
+        .title-1 {
+            font-size: 35px;
+            line-height: 50px;
+        }
+        .title-71 {
+            font-size: 38px;
+            line-height: 1;
+        }
+        .title-72 {
+            font-size: 20px;
+            line-height: 1;
+        }
+        .title-74 {
+            font-size: 35px;
+            line-height: 50px;
+        }
+        .title-79 {
+            font-size: 26px;
+            line-height: 35px;
+        }
+        .title-78 {
+            font-size: 18px;
+            line-height: 25px;
+        }
+        .pl-35 {
+            padding-left: 15px;
+        }
+        .cp-5 {
+            padding: 15px;
+        }
+        .ml-25 {
+            margin-left: 15px;
+        }
+        .title-80 {
+            font-size: 16px;
+        }
+        .mb-88 {
+            margin-bottom: 25px !important;
+        }
+        .contact-imgs {
+            width: 25px;
+        }
+        .mb-199 {
+            margin-bottom: 170px !important;
+        }
+        .mb-134 {
+            margin-bottom: 70px !important;
+        }
+        .p-48 {
+            padding: 48px 20px !important;
+        }
+        .title-2 {
+            font-size: 18px;
+            line-height: 24px;
+        }
+        .cp-2 {
+            padding: 0 15px;
+        }
+        .items-sm-center {
+            margin-left: auto;
+            margin-right: auto;
+            width: fit-content;
+        }
+        .mb-40 {
+            margin-bottom: 20px;
+        }
+        .mb-81 {
+            margin-bottom: 30px !important;
+        }
+        .mb-198 {
+            margin-bottom: 40px !important;
+        }
+        .mb-82 {
+            margin-bottom: 50px !important;
+        }
+        .title-13 {
+            font-size: 18px;
+            line-height: 24px;
+        }
+        .mb-156 {
+            margin-bottom: 50px!important;
+        }
+        .navbar {
+            padding: 15px;
+        }
+        .mb-186 {
+            margin-bottom: 100px!important;
+        }
+        .pt-140 {
+            padding-top: 70px!important;
+        }
+        .mb-111 {
+            margin-bottom: 50px!important;
+        }
+        .cp-10 {
+            padding: 25px 15px;
+            padding-bottom: 0px;
+        }
+        .title-33 {
+            font-size: 30px;
+            line-height: 40px;
+            letter-spacing: 0;
+        }
+        .title-42 {
+            font-size: 22px;
+            line-height: 32px;
+        }
+        .title-45 {
+            font-size: 18px;
+            line-height: 26px;
+        }
+        .mb-44 {
+            margin-bottom: 25px !important;
+        }
+        .mb-90 {
+            margin-bottom: 15px !important;
+        }
+        .mb-40 {
+            margin-bottom: 25px !important;
+        }
+    }
+    
+    @media (max-width: 350px) {
+        .title-1 {
+            font-size: 30px;
+            line-height: 40px;
+        }
+    }
